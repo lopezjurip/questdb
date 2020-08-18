@@ -5,4 +5,4 @@ services:
     disk:
       name: questdb
       mountPath: /root/.questdb/db
-      sizeGB: 20
+      sizeGB: 2
