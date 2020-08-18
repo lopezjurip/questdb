@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: questdb
+    name: flayyer-questdb
     env: docker
     disk:
-      name: questdb
+      name: flayyer-questdb-disk
       mountPath: /root/.questdb/db
-      sizeGB: 20
+      sizeGB: 2
